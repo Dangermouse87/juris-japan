@@ -10,4 +10,5 @@ class User < ApplicationRecord
   validates :email, presence: true, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates :password, presence: true, length: { in: 6..20 }
   acts_as_favoritor
+  has_one_attached :photo
 end

@@ -26,7 +26,11 @@
             <div class="gradient">
             </div>
             <div class="card-lawfirms-img">
-              <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" alt="user">
+              <% if lawfirm.photo.attached? %>
+                <img src="<%= cl_image_path dogsitting.user.photo.key %>" alt="user">
+              <% else %>
+                <img src="https://cdn-icons-png.flaticon.com/512/709/709722.png" alt="user">
+              <% end %>
             </div>
             <div class="content-lawfirms">
               <h2><%= lawfirm.name %></h2>
