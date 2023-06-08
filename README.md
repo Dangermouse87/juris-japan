@@ -6,6 +6,20 @@ Juris Japan was an app aimed at helping foreigners in Japan with various adminis
 
 For demonstration purposes, we have only coded our journey for Immigration - Permanent Residency.
 
+The tech stack used is:
+
+Backend:
+
+Ruby, Rails, Postgres, SQL
+
+Frontend:
+
+HTML, CSS, SCSS, JavaScript
+
+Features:
+
+Mapbox, Cloudinary, Acts as Tagable, PG Search, Geocoder, 
+
 Thank you for viewing our app
 
 https://www.juris-japan.com
