@@ -34,7 +34,7 @@ yarn build --watch
 ```
 The app should be available on the browser at `http://localhost:3000`
 
-###For demo purposes, we have only implemented one procedure, which is the 'Permananent Residency' path. Please follow that route to enjoy the app.
+###For demo purposes, we have only implemented one procedure, which is the 'Permananent Residency' path. Please follow that route to enjoy the app.###
 
 ## Project Structure
 - `views/`:   The main pages for the application.
